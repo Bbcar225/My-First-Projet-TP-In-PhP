@@ -1,0 +1,4 @@
+AuthName "Page d'administration !"
+AuthType Basic
+AuthUserFile "C:\wamp64\www\Commerce\admin\deconnexion\.htpasswd"
+Require valid-user

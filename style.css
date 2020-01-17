@@ -1,0 +1,1140 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Century Gothic', Colibri, Serif;
+}
+								
+								/*============================================*/
+								/*=============== HEADER =====================*/
+								/*============================================*/
+header{
+	margin-bottom: 15px;
+}
+
+.logo, .connex_panier{
+	display: inline-block;
+	width: 50%;
+	height: 70px;
+}
+
+.img_logo{
+	width: 70%;
+	height: 70px;
+}
+
+.connex_panier{
+	float: right;
+	height: 70px;
+}
+
+.inscrip_connex, .panier{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	height: 70px;
+}
+
+.panier{
+	float: right;
+	height: 70px;
+}
+
+.inscrip, .connex{
+	width: 50%;
+	margin: auto;
+	margin-bottom: 15px;
+	height: 35px;
+	background-color: #98F5FF;
+	border-radius: 20px;
+	position: relative;
+	top: 2px;
+}
+
+.inscripafter, .connexafter{
+	width: 95%;
+	margin: auto;
+	margin-bottom: 10px;
+	height: 35px;
+	background-color: #98F5FF;
+	border-radius: 20px;
+	position: relative;
+	top: 1px;
+}
+
+.spanconnexionafter{
+	word-wrap: break-word;
+}
+
+.imgafterconnex{
+	position: relative;
+	right: 5px;
+	top: 5px;
+}
+
+.inscrip img, .connex img{
+	margin-top: 3px;
+	width: 24px;
+	height: 22px;
+}
+
+.inscripafter img, .connexafter img{
+	margin-top: 3px;
+	width: 24px;
+	height: 22px;
+}
+
+.inscrip:hover, .connex:hover{
+	box-shadow: 2px 2px 2px 2px #BFBFBFFF;
+	margin-bottom: 25px;
+	width: 50%;
+	height: 35px;
+	position: relative;
+	top: 5px;
+}
+
+.inscripafter:hover, .connexafter:hover{
+	box-shadow: 2px 2px 2px 2px #BFBFBFFF;
+	width: 100%;
+	height: 35px;
+	position: relative;
+	top: 3px;
+}
+
+.connex{
+	margin-top: -5px;
+}
+
+.inscrip span, .connex span{
+	display: inline-block;
+	padding-top: 7px;
+}
+
+.inscripafter span, .connexafter span{
+	display: inline-block;
+	padding-top: 7px;
+}
+
+.a_inscript div{
+	margin-top: 5px;
+}
+
+.log_pan{
+	display: inline-block;
+	width: 42%;
+	height: 125px;
+	margin-top: -30px;
+	float: left;
+	position: relative;
+	left: 40px;
+}
+
+.count{
+	font-weight: bold;
+	position: relative;
+	bottom: 100px;
+	right: -6px;
+	font-size: 20px;
+	animation-name: chgt_couleur3;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes chgt_couleur3{
+	form{
+		color: white;
+	}
+	to{
+		color:  #E31B36;
+	}
+}
+
+.inf_pan{
+	display: inline-block;
+	width: 50%;
+	height: 125px;
+	float: right;
+	border-radius: 10px;
+	margin-right: 5px;
+}
+
+.p1_inf_pan{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-weight: bolder;
+	color: #E31B36;
+}
+
+
+
+								/*============================================*/
+								/*================== MENU ====================*/
+								/*============================================*/
+nav{
+	width: 75%;
+	height: 50px;
+	background-color: #98F5FF;
+	border-radius: 200px;
+	margin: auto;
+}
+
+li{
+	list-style-type: none;
+	float: left;
+	margin-right: 10px;
+}
+
+.les_a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 1px 20px;
+	font-weight: bold;
+	margin-top: -10px;
+	margin-left: 20px;
+}
+
+li img{
+	margin-bottom: -10px;
+	margin-right: 5px;
+}
+
+.les_a:hover{
+	font-weight: bold;
+	margin-top: -30px;
+	background-color: #98F5FF;
+	box-shadow: 2px 2px 2px 2px #BFBFBFFF;
+	border-top: 2px solid #BFBFBFFF;
+	border-left: 2px solid  #BFBFBFFF;
+	border-radius: 100px;
+}
+
+.divnav{
+	display: table;
+	margin:auto;
+}
+
+
+
+
+								/*============================================*/
+								/*================== FOOTER ===================*/
+								/*============================================*/
+footer{
+	background-color: #98F5FF;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+
+
+								/*============================================*/
+								/*================== FLASH ===================*/
+								/*============================================*/
+.flash{
+	margin-top: 20px;
+	height: 40px;
+}
+
+.flash img{
+	display: inline-block;
+	width: 4%;
+	background-color: white;
+	margin-left: 10px;
+	animation-name: chgt_couleur;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes chgt_couleur{
+	form{
+		background-color: white;
+	}
+	to{ 
+		border-radius: 100px;
+		background-color: red;
+	}
+}
+
+.flash span{
+	text-align: center;
+	display: inline-block;
+	width: 94%;
+	height: 43px;
+	vertical-align: top;
+}
+
+.flash p{
+	margin-top: 10px;
+	text-align: center;
+	font-weight: bold;
+	animation-name: chgt_couleur2;
+	animation-duration: 1s;;
+	animation-iteration-count: infinite
+}
+
+@keyframes chgt_couleur2{
+	form{
+		/*font-size: 20px;*/
+		/*color: #000000FF;*/
+	}
+	to{ 
+		/*font-size: 20px;*/
+		/*color: white;*/
+		background-color: red;
+	}
+}
+
+
+								/*============================================*/
+								/*============== BODY PAGE INDEX =============*/
+								/*============================================*/
+
+.body{
+	width: 100%;
+	height: 100%;
+}
+
+h3{
+	text-transform: uppercase;
+}
+
+.livre{
+	margin-top: 3px;
+}
+
+.achat a, .genre a, .livre a, .livre_auteur a, .livre_edition a{
+	display: block;
+	text-align: center;
+	word-wrap: break-word;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+.achat_genre{
+	width: 20%;
+	height: 900px;
+	display: inline-block;
+	background-color: rgba(152, 245, 255, 0.17);
+}
+
+.achat a, .genre a, .info_livre a, .info_livre span, .livre_auteur a, .livre_edition a, .nom_livre_page_achat, .nom_auteur_page_achat, td a{
+	font-style: italic;
+	color: black;
+}
+
+.achat a:hover, .genre a:hover, .livre_auteur a:hover, .livre_edition a:hover, .nom_livre_page_achat:hover, .nom_auteur_page_achat:hover, .resume:hover, td a:hover{
+	font-style: italic;
+	font-weight: bold;
+	color: blue;
+	font-size: 16.5px;
+}
+
+.achat a:active, .genre a:active, .livre_auteur a:active, .livre_edition a:active, .nom_livre_panier:active, .nom_auteur_panier:active, .nom_livre_commande:active{
+	background-color: #98F5FF;
+}
+
+.genre{
+	overflow: scroll;
+}
+
+.genre a{
+	font-style: italic;
+}
+
+.rech_livre{
+	width: 64%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.search{
+	width: 64%;
+	text-align: center;
+	margin: 0px auto;
+	position: relative;
+	bottom: 15px;
+}
+
+.recherche{
+	border: 2px solid #98F5FF;
+	display: inline-block;
+	width: 64%;
+	height: 40px;
+	background-color: rgba(152, 245, 255, 0.35);
+	cursor: pointer;
+}
+
+.liste_search{
+	display: inline-block;
+	background-color: rgba(152, 245, 255, 0.35);
+	border-top: 2px solid #98F5FF;
+	border-bottom: 2px solid #98F5FF;
+	border-left: 2px solid #98F5FF;
+	height: 40px;
+	position: relative;
+	left: 5px;
+	cursor: pointer;
+}
+
+.search p{
+	display: inline-block;
+	position: relative;
+	right: 54px;
+	top: 13px;
+}
+
+.search img:hover{
+	cursor: pointer;
+}
+
+.un_livre{
+	width: 30%;
+	height: 520px;
+	display: inline-block;
+	float: left;
+	margin-top: 0px;
+	margin-right: 21px;
+	margin-bottom: 25px;
+	margin-left: 5px;
+}
+
+.un_livre:hover{
+	box-shadow: 0px 0px 5px 5px #BFBFBFFF;
+}
+
+.logo_livre{
+	border: 2px solid #98F5FF;
+	height: 60%;
+}
+
+.logo_livre img{
+	width: 238px;
+	height: 312px;
+	margin-top: -10px;
+}
+
+/*.logo_livre .price{
+	width: 50px;
+	height: 50px;
+	position: relative;
+	bottom: 307px;
+	left: 95px;
+	background-color: red;
+	border-radius: 100%;
+}*/
+
+/*.avant{
+	z-index: -2;
+	position: relative;
+	animation-name: change-position;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+	animation-direction: alternate;
+}
+
+@keyframes change-position{
+	0%{right: 0px;}
+	20%{right: 20px;}
+	30%{right: 50px;}
+	50%{right: 70px;}
+	60%{right: 100px}
+	80%{right: 200px;}
+	95%{right: 242px;}
+	100%{display: none;}
+}
+
+.arriere{
+	z-index: -2;
+	margin-top: -275px;
+	position: relative;
+	left: 242px;
+	animation-name: change-positio;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+	animation-direction: alternate;
+}
+
+@keyframes change-positio{
+	0%{left: 0px;}
+	20%{left: 20px;}
+	30%{left: 50px;}
+	50%{left: 70px;}
+	60%{left: 100px}
+	80%{left: 200px;}
+	95%{left: 242px;}
+	100%{display: none;}
+}
+*/
+.info_livre{
+	border: 2px solid #98F5FF;
+	background-color: rgba(152, 245, 255, 0.17);
+	height: 40%;
+}
+
+/*.info_livre a{
+	margin-bottom: 10px;
+}*/
+
+.info_livre img{
+	width: 44px;
+	height: 36px;
+}
+
+.info_livre img:hover{
+	width: 50px;
+	height: 40px;
+}
+
+#fond:hover{
+	background-color: unset;
+}
+
+.info_livre a:hover, .info_livre span:hover{
+	font-style: italic;
+	font-weight: bold;
+	color: blue;
+	font-size: 16.5px;
+	background-color: #98F5FF;
+	border-radius: 100px;
+	cursor: pointer;
+}
+
+.edition{
+	width: 15.6%;
+	height: 900px;
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	background-color: rgba(152, 245, 255, 0.17);
+}
+
+.logo_edition{
+	margin: auto;
+	width: 95%;
+	height: 150px;
+	border: 2px solid #98F5FF;
+}
+
+
+.logo_edition img{
+	width: 100%;
+	height: 100%;
+}
+
+
+								/*============================================*/
+								/*============== BODY PAGE AUTEUR ============*/
+								/*============================================*/
+.auteur, .edition_edition{
+	width: 98%;
+	margin: auto;
+}
+
+.photo_auteur, .logo_edition_page_edition{
+	display: inline-block;
+	border-top: 2px solid #98F5FF;
+	border-right: 2px solid #98F5FF;
+	border-left: 2px solid #98F5FF;
+	width: 40%;
+	height: 188px;
+	float: left;
+	background-color: rgba(152, 245, 255, 0.17);
+}
+
+.photo_auteur img, .logo_edition_page_edition img{
+	width: 100%;
+	height: 100%;
+}
+
+.bio_resume_auteur, .info_edition{
+	display: inline-block;
+	border-top: 2px solid #98F5FF;
+	border-right: 2px solid #98F5FF;
+	border-left: 2px solid #98F5FF;
+	width: 58%;
+	height: 190px;
+	margin: auto;
+	float: right;
+	background-color: rgba(152, 245, 255, 0.17);
+}
+
+.info_edition strong{
+	margin-left: 5px;
+}
+
+.info_edition strong span{
+	font-weight: normal;
+}
+
+.site_web_edition{
+	position: relative;
+	top: 5px;
+}
+
+.inf_bio, .inf_bio a{
+	margin-top: 0px;
+	margin-left: 3px;
+	color: black;
+}
+
+.bio_auteur, .bio_edition{
+	margin-top: -1px;
+	display: inline-block;
+	float: right;
+	border-bottom: 2px solid #98F5FF;
+	border-right: 2px solid #98F5FF;
+	border-left: 2px solid #98F5FF;
+	width: 58%;
+	height: 600px;
+	overflow: scroll;
+	/*word-wrap: break-word;*/
+	background-color: rgba(152, 245, 255, 0.17);
+}
+
+.bio_auteur p, .bio_edition p{
+	margin-left: 5px;
+}
+
+.livre_auteur, .livre_edition{
+	margin-top: -1px;
+	display: inline-block;
+	float: left;
+	border-bottom: 2px solid #98F5FF;
+	border-right: 2px solid #98F5FF;
+	border-left: 2px solid #98F5FF;
+	width: 40%;
+	height: 600px;
+	overflow: scroll;
+	background-color: rgba(152, 245, 255, 0.17);
+}
+
+/*POUR LA MISE DES LIENS DES LIVRE AU COMPTE D'UN AUTEUR VOIR LES LIGNES 247 et 268*/
+
+
+								/*============================================*/
+								/*============== BODY PAGE EDITION ===========*/
+								/*============================================*/
+
+/* POUR LA MISE EN FORME VOIR LES LIGNES 247, 268, 420, 426, 437, 442, 454, 468, 472 */
+
+
+								/*============================================*/
+								/*============== BODY PAGE ACHAT =============*/
+								/*============================================*/
+
+.logo_av_ar{
+	width: 40%;
+	height: 300px;
+	display: inline-block;
+	float: left;
+	background-color: rgba(152, 245, 255, 0.17);
+}
+
+.logo_avant_livre{
+	border: 2px solid #98F5FF;
+	width: 48%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+}
+
+.logo_avant_livre img, .logo_arriere_livre img{
+	width: 100%;
+	height: 100%;
+}
+
+.logo_arriere_livre{
+	border: 2px solid #98F5FF;
+	width: 48%;
+	height: 100%;
+	display: inline-block;
+	float: right;
+}
+
+.info_livre_achat{
+	border: 2px solid #98F5FF;
+	width: 58%;
+	height: 300px;
+	display: inline-block;
+	margin-left: 5px;
+	background-color: rgba(152, 245, 255, 0.17);
+	word-wrap: break-word;
+}
+
+a img[alt="mettre dans le panier"]{
+	width: 35px;
+	height: 30px;
+	position: relative;
+	top: 8px;
+}
+
+/* POUR LA MISE EN FORME NOM LIVRE, AUTEUR, EDITION, GENRE ET RESUME VOIRE LES LIGNES 263 et 268 */
+
+.info_livre_achat *{
+	text-decoration: none;
+	cursor: pointer;
+	margin-top: 12px;
+	margin-left: 5px;
+	color: black;
+}
+
+.quantite_panierc{
+	position: relative;
+	left: 25px;
+}
+
+.prix, .prix_livraison_panier, .prix_panier, .prix_commandes{
+	color: red;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.prix:hover, .prix_panier:hover, .prix_commandes:hover, .prix_livraison_panier:hover{
+	font-size: 18px;
+}
+
+.input_livraison:hover{
+	box-shadow: 0px 0px 2px 2px #98F5FF;
+}
+
+.description_livre{
+	border: 2px solid #98F5FF;
+	width: 99%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	margin-top: 5px;
+	overflow: scroll;
+	word-wrap: break-word;
+	background-color: rgba(152, 245, 255, 0.17);
+}
+
+.description_livre p{
+	margin-left: 5px;
+}
+
+
+								/*============================================*/
+								/*============== BODY PAGE PANIER ============*/
+								/*============================================*/
+table, th, td, caption{
+	border: 2px solid #98F5FF;
+}
+
+table{
+	background-color: rgba(152, 245, 255, 0.17);
+}
+
+.empty_panier{
+	height: 70px;
+	font-weight: normal;
+	color: #D32B31;
+}
+
+.img_empty_panier{
+	width: 15%;
+	text-align: center;
+}
+
+.input_panier{
+	display: block;
+	margin: 10px auto;
+}
+
+.panier_achat caption{
+	background-color: rgba(152, 245, 255, 0.17);
+	height: 30px;
+	border: 2px solid #98F5FF;
+	font-weight: bold;
+}
+
+.nom_livre_panierx, .nom_livre_commande{
+	width: 35%;
+	height: 30px;
+}
+
+.nom_auteur_panierx{
+	width: 30%;
+	height: 30px;
+}
+
+.prix_panierx, .prix_commandes{
+	width: 18%;
+	height: 30px;
+}
+
+.prix_livraison_panierx{
+	width: 18%;
+	height: 30px;
+}
+
+.quantite_panierx{
+	width: 15%;
+	height: 30px;
+}
+
+.prix_livraison_panier label{
+	cursor: pointer;
+}
+
+.quantite_panier a{
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 5px;
+	margin-bottom: -10px;
+	/*padding-top: -5px;*/
+	position: relative;
+	bottom: 15px;
+}
+
+.quantite_panier span{
+	margin-right: 45px;
+	position: relative;
+	top: 30px;
+}
+
+.not_connex{
+	margin-top: -5px;
+	text-align: center;
+	font-weight: normal;
+	color: #D32B31;
+}
+
+.nom_livre_panier, .nom_auteur_panier, .prix_panier, .prix_livraison_panier, .quantite_panier, .nom_livre_commande, .prix_commandes, .date_commande_commande, .date_livraison_commande{
+	height: 30px;
+	word-wrap: break-word;
+	text-align: center;
+}
+
+td a{
+	text-decoration: none;
+}
+
+td img{
+	width: 25px;
+	height: 25px;
+}
+
+td img[src="imgs/panier/Decremente.png"]{
+	background-color: rgba(255, 0, 0, 0.7);
+	border-radius: 30px;
+	position: relative;
+}
+
+td img[src="imgs/panier/Increment.png"]{
+	background-color: rgba(0, 255, 0, 0.7);
+	border-radius: 30px;
+}
+
+td span{
+	font-weight: bold;
+	margin: 0px 5px;
+	position: relative;
+	bottom: 6px;
+}
+
+.prix_totalx, .prix_no_totalx{
+	width: 70%;
+	height: 30px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.valider_commande input[type="submit"]{
+	display: inline-block;
+	text-align: center;
+	background-color: #98F5FF;
+	width: 200px;
+	height: 40px;
+	border-radius: 100px;
+	position: relative;
+	bottom: 5px;
+	margin: 10px 0% 0px 40%;
+	cursor: pointer;
+}
+
+input[name="validecommande"]{
+	background-image: url(imgs/panier/valide_commande.png);
+	background-repeat: no-repeat;
+	float: left;
+	background-size: 38px 38px;
+}
+
+.valider_commande input[type="submit"]:hover{
+	/*width: 210px;*/
+	/*height: 45px;*/
+	box-shadow: 3px 3px 3px 3px #BFBFBFFF;
+	border-top: 3px solid #BFBFBFFF;
+	border-left: 3px solid  #BFBFBFFF;
+}
+/* POUR LA MISE EN FORME DES LIENS VOIR LES LIGNES 263 ET 268 */
+/* POUR LA MISE EN FORME DES PRIX VOIR LES LIGNES 556 et 562 */
+
+								/*============================================*/
+								/*============ BODY PAGE COMMANDE ============*/
+								/*============================================*/
+
+/* POUR LA MISE EN FORME DES ELEMENTS DU TABLEAU VOIR LES LIGNES 556, 562, 608, 618 ET 633 */
+.date_commande_commande, .date_livraison_commande{
+	font-style: italic;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.img_en_cours_et_no_ok{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-left: 5px;
+}
+
+.date_livraison_ok{
+	color: green;
+	position: relative;
+	top: 10px;
+	right: ;
+	bottom: ;
+	left: ;
+}
+
+.date_livraison_no_ok{
+	color: black;
+	position: relative;
+	top: 10px;
+	right: ;
+	bottom: ;
+	left: ;	
+}
+
+								/*============================================*/
+								/*============ BODY PAGE CONNEXION ===========*/
+								/*============================================*/
+
+.connexion{
+	margin-top: -8px;
+	height: 805px;
+
+}
+.connexion input[type="email"], .connexion input[type="password"]{
+	width: 50%;
+	height: 30px;
+	border: 2px solid rgba(152, 245, 255, 0.85);
+}
+
+.connexion input[type="email"]:focus, .connexion input[type="password"]:focus{
+	background-color: rgba(152, 245, 255, 0.17);
+	border: 2px solid #98F5FF;
+	box-shadow: 0px 0px 3px 3px #BFBFBFFF;
+}
+
+.connexion input[type="email"]{
+	background-image: url(imgs/form_inscription/mail.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-size: 30px 45px;
+}
+
+.connexion input[type="password"]{
+	background-image: url(imgs/form_inscription/password.png);
+	background-position: -3px;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-size: 35px 32px;
+}
+
+.connexion fieldset{
+	background-color: rgba(152, 245, 255, 0.17);
+	text-align: center;
+	border: 2px solid #98F5FF;
+}
+
+.connexion label, .connexion input{
+	cursor: pointer;
+}
+
+.connexion input[type="submit"]{
+	background-color: #98F5FF;
+	width: 130px;
+	height: 25px;
+	border-radius: 100px;
+	position: relative;
+	bottom: 5px;
+}
+
+.connexion input[type="submit"]:hover{
+	width: 150px;
+	height: 30px;
+	position: relative;
+	bottom: 2px;
+}
+
+
+								/*============================================*/
+								/*========= BODY PAGE D'INSCRIPTION ==========*/
+								/*============================================*/
+.formulaire{
+	margin-top: -8px;
+}
+
+.form_inscription{
+	text-align: center;
+}
+
+.formulaire fieldset{
+	background-color: rgba(152, 245, 255, 0.17);
+	border: 2px solid #98F5FF;
+}
+
+.formulaire label, .formulaire input, .formulaire select{
+	cursor: pointer;
+}
+
+.formulaire input[type="text"], .formulaire input[type="password"], .formulaire input[type="email"], .formulaire select, .formulaire input[type="date"], .formulaire input[type="tel"]{
+	width: 70%;
+	height: 30px;
+	border: 2px solid rgba(152, 245, 255, 0.85);
+}
+
+.formulaire input[type="text"]:focus, .formulaire input[type="password"]:focus, .formulaire input[type="email"]:focus, .formulaire select:focus, .formulaire input[type="date"]:focus, .formulaire input[type="tel"]:focus{
+	background-color: rgba(152, 245, 255, 0.17);
+	border: 2px solid #98F5FF;
+	box-shadow: 0px 0px 3px 3px #BFBFBFFF;
+}
+
+.formulaire input[name="Nom"], .formulaire input[name="Prenom"]{
+	background-image: url(imgs/form_inscription/name.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.formulaire select[name="Sexe"]{
+	background-image: url(imgs/form_inscription/sex.png);
+	background-position: -2px;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: rgba(41, 36, 33, 0.6);
+	background-size: 33px 25px;
+}
+
+.formulaire input[type="date"]{
+	background-image: url(imgs/form_inscription/date.png);
+	background-position: -2px;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-size: 35px 35px;
+}
+
+.formulaire input[type="tel"]{
+	background-image: url(imgs/form_inscription/tel.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-size: 30px 30px;
+}
+
+.formulaire input[type="email"]{
+	background-image: url(imgs/form_inscription/mail.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-size: 30px 45px;
+}
+
+.formulaire select[name="Ville"]{
+	background-image: url(imgs/form_inscription/city.png);
+	background-position: -3.8px;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: rgba(41, 36, 33, 0.6);
+	background-size: 35px 25px;
+}
+
+.formulaire input[name="Quartier"]{
+	background-image: url(imgs/form_inscription/place.png);
+	background-position: -5px;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-size: 35px 33px;
+}
+
+.formulaire input[name="Lieu_Retrait"]{
+	background-image: url(imgs/form_inscription/retrait.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-size: 30px 32px;
+}
+
+.formulaire input[type="password"]{
+	background-image: url(imgs/form_inscription/password.png);
+	background-position: -3px;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-size: 35px 32px;
+}
+
+/*.formulaire input[type="tel"]{
+	width: 800px;
+}
+
+.formulaire input[type="tel"]{
+	width: 155px;
+	border: 2px solid rgba(152, 245, 255, 0.85);
+}
+
+.formulaire input[type="date"]{
+	border: 2px solid rgba(152, 245, 255, 0.85);
+}
+
+.formulaire label{
+	margin-left: 15px;
+}*/
+
+.formulaire input[type="submit"]{
+	text-align: center;
+	background-color: #98F5FF;
+	width: 100px;
+	height: 25px;
+	border-radius: 100px;
+	/*position: relative;*/
+	/*bottom: 5px;*/
+	/*margin: 0px 0% 0px 40%;*/
+}
+
+.formulaire input[type="submit"]:hover{
+	width: 120px;
+	height: 30px;
+	position: relative;
+	bottom: 2px;
+}
+								/*============================================*/
+								/*========= BODY PAGE D'INSCRIPTION ==========*/
+								/*============================================*/
+
+.profil a {
+	float: right;
+}
+
+.p_newInscript{
+	margin-left: 30px;
+	margin-top: 30px;
+	background-color: rgba(152, 245, 255, 0.5);
+	font-size: 16px;
+	width: 92%;
+	height: 30px;
+	/*font-weight: bold;*/
+}
+
+.p_newInscript span{
+	position: relative;
+	top: 5px;
+	left: 5px;
+	font-weight: bold;
+}

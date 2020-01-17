@@ -1,0 +1,916 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Century Gothic', Colibri, Serif;
+}
+
+/******************************************************************HEADER***********************************************************/
+
+.logo, .connexion_deconnexion, .home{
+	float: left;
+	width: 33%;
+	height: 70px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.logo img{
+	width: 100%;
+	height: 70px;
+}
+
+.logo{
+
+}
+
+.connexion_deconnexion{
+	margin-left: 70px;
+}
+
+.connexion_deconnexion img{
+	width: 29px;
+	height: 24px;
+	margin-right: 5px;
+	position: relative;
+	top: 5px;
+}
+
+.nom_connexion{
+	background-color: green;
+}
+
+.nom_connexion span, .deconnexion span{
+	position: relative;
+	bottom: 5px;
+}
+
+.deconnexion{
+	background-color: purple;
+}
+
+.nom_connexion, .deconnexion{
+	width: 45%;
+	height: 100%;
+	margin-right: 4px;
+	display: inline-block;
+	text-align: center;
+	background-color: #98F5FF;
+	height: 60px;
+	border-radius: 20px;
+	border: 2px solid #BFBFBFFF;
+}
+
+.nom_connexion:hover, .deconnexion:hover{
+	box-shadow: 0px 0px 5px 3px #BFBFBFFF;
+	width: 48%;
+}
+
+.home{
+	width: 20%;
+	float: right;
+	margin-right: 70px;
+}
+
+.home img{
+	width: 150px;
+	height: 70px;
+}
+
+/************************************************************INDEX*****************************************************************/
+
+.connexion_nom{
+	text-align: center;
+	background-image: url(imgs/form_connexion/name.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	border: 2px solid rgba(152, 245, 255, 0.85);
+}
+
+.connexion_prenom{
+	text-align: center;
+	background-image: url(imgs/form_connexion/name.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	border: 2px solid rgba(152, 245, 255, 0.85);
+}
+
+.connexion_mail{
+	text-align: center;
+	background-image: url(imgs/form_connexion/mail.png);
+	background-repeat: no-repeat;
+	background-position: -1px;
+	background-size: 34px 38px;
+	border: 2px solid rgba(152, 245, 255, 0.85);
+}
+
+.connexion_password{
+	text-align: center;
+	background-image: url(imgs/form_connexion/password.png);
+	background-repeat: no-repeat;
+	background-position: 0px;
+	background-size: 28px 28px;
+	border: 2px solid rgba(152, 245, 255, 0.85);
+}
+
+.connexion_ville{
+	text-align: center;
+	background-image: url(imgs/form_connexion/city.png);
+	background-repeat: no-repeat;
+	background-position: -4px;
+	background-size: 36px 21px;
+	border: 2px solid rgba(152, 245, 255, 0.85);
+}
+
+.connexion_poste{
+	text-align: center;
+	background-image: url(imgs/form_connexion/name.png);
+	background-repeat: no-repeat;
+	background-position: 0px;
+	background-size: 30px 28px;
+	border: 2px solid rgba(152, 245, 255, 0.85);
+}
+
+
+/************************************************************MENU*****************************************************************/
+
+.auteurs, .editions, .commandes, .livres, .membres, .poste{
+	float: left;
+	width: 18%;
+	height: 100px;
+	margin-left: 13px;
+	margin-top: 100px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.p_auteurs, .p_editions, .p_commandes, .p_livres, .p_membres, .p_poste{
+	margin-top: 40px;
+	font-weight: bold;
+}
+
+.auteurs{
+	cursor: pointer;
+	background-color: #00FFFF;
+	animation-name: ChgtClrAtrs;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 3px #BFBFBFFF;
+	border: 5px solid #BFBFBFFF;
+}
+
+@keyframes ChgtClrAtrs{
+	form{
+		background-color: #00FFFF;
+	}
+
+	to{
+		background-color: #7FFF00;
+	}
+}
+
+.auteurs:hover .detail_auteurs{
+	display: block;
+}
+
+.detail_auteurs{
+	background-color: #00FFFF;
+	animation-name: ChgtClrAtrs;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	width: 100%;
+	height: 95px;
+	margin-top: 40px;
+	padding-top: 5px;
+	border-radius: 10px;
+	display: none;
+}
+
+.detail_auteurs p{
+
+}
+
+.editions{
+	cursor: pointer;
+	background-color: #00FFFF;
+	animation-name: ChgtClrEdtns;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 3px #BFBFBFFF;
+	border: 5px solid #BFBFBFFF;
+}
+
+@keyframes ChgtClrEdtns{
+	form{
+		background-color: #00FFFF;
+	}
+
+	to{
+		background-color: #FF8247;
+	}
+}
+
+.editions:hover .detail_editions{
+	display: block;
+}
+
+.detail_editions{
+	background-color: #00FFFF;
+	animation-name: ChgtClrEdtns;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	border-radius: 10px;
+	width: 100%;
+	height: 95px;
+	margin-top: 40px;
+	padding-top: 5px;
+	display: none;
+}
+
+.commandes{
+	cursor: pointer;
+	background-color: #00FFFF;
+	animation-name: ChgtClrCommds;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 3px #BFBFBFFF;
+	border: 5px solid #BFBFBFFF;
+}
+
+@keyframes ChgtClrCommds{
+	form{
+		background-color: #00FFFF;
+	}
+	to{
+		background-color: #8A2BE2;
+	}
+}
+
+.commandes:hover .detail_commandes{
+	display: block;
+}
+
+.detail_commandes{
+	background-color: #00FFFF;
+	animation-name: ChgtClrCommds;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	border-radius: 10px;
+	width: 100%;
+	height: 100px;
+	margin-top: 40px;
+	display: none;
+}
+
+.detail_commandes p{
+	padding-top: 35px;
+}
+
+.livres{
+	cursor: pointer;
+	background-color: #00FFFF;
+	animation-name: ChgtClrLvrs;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 3px #BFBFBFFF;
+	border: 5px solid #BFBFBFFF;
+}
+
+@keyframes ChgtClrLvrs{
+	form{
+		background-color: #00FFFF;
+	}
+	to{
+		background-color: #FFFF00;
+	}
+}
+
+.livres:hover .detail_livres{
+	display: block;
+}
+
+.detail_livres{
+	background-color: #00FFFF;
+	animation-name: ChgtClrLvrs;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	border-radius: 10px;
+	width: 100%;
+	height: 95px;
+	margin-top: 40px;
+	padding-top: 5px;
+	display: none;
+}
+
+.membres{
+	cursor: pointer;
+	background-color: #00FFFF;
+	animation-name: ChgtClrmmbrs;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 3px #BFBFBFFF;
+	border: 5px solid #BFBFBFFF;
+}
+
+@keyframes ChgtClrmmbrs{
+	form{
+		background-color: #00FFFF;
+	}
+	to{
+		background-color: #8B3626;
+	}
+}
+
+.membres:hover .detail_membres{
+	display: block;
+}
+
+.detail_membres{
+	background-color: #00FFFF;
+	animation-name: ChgtClrmmbrs;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	border-radius: 10px;
+	width: 100%;
+	height: 100px;
+	margin-top: 40px;
+	display: none;
+}
+
+.detail_membres p{
+	padding-top: 35px;
+}
+
+.poste{
+	cursor: pointer;
+	background-color: #00FFFF;
+	/*animation-name: ChgtClrPst;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;*/
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 3px #BFBFBFFF;
+	border: 5px solid #BFBFBFFF;
+	/*margin-top: 30px;*/
+	/*margin-left: 520px;*/
+}
+
+.poste:hover .detail_poste{
+	display: block;
+}
+
+.detail_poste{
+	background-color: #00FFFF;
+	/*animation-name: ChgtClrPst;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;*/
+	border-radius: 10px;
+	width: 100%;
+	height: 95px;
+	margin-top: 40px;
+	padding-top: 5px;
+	display: none;
+}
+
+/*@keyframes ChgtClrPst{
+	form{
+		background-color: #00FFFF;
+	}
+	to{
+		background-color: #8B3626;
+	}
+}*/
+
+/***************************************************LIVRES****************************************************************************/
+
+.search{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.search input{
+	width: 300px;
+	height: 35px;
+}
+
+.all_livres{
+	/*background-color: blue;*/
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.un_livre{
+	cursor: pointer;
+	width: 18.5%;
+	height: 730px;
+	display: inline-block;
+	float: left;
+	margin-left: 1px;
+	margin-right: 11px;
+	margin-bottom: 20px;
+	border: 3px solid #98F5FF;
+	background-color: rgba(152, 245, 255, 0.17);
+}
+
+.un_livre:hover{
+	box-shadow: 0px 0px 6px 6px #BFBFBFFF;
+}
+
+.img_avant_et_arriere{
+	background-color: green;
+	width: 100%;
+	height: 300px;
+	border-bottom: 3px solid #98F5FF;
+}
+
+.img_avant_et_arriere img{
+	width: 50%;
+	height: 300px;
+	float: left;
+}
+
+.inf_livre{
+	width: 100%;
+	height: 60%;
+	text-align: center;
+	word-wrap: break-word;
+	font-style: italic;
+}
+
+.inf_livre a{
+	text-decoration: none;
+	color: black;
+	font-style: normal;
+}
+
+
+/***********************************************************************************************************************************/
+						/*INSERTION LIVRES, AUTEURS, EDITIONS ET MODIFICATION LIVRES, AUTEURS, EDITIONS*/
+/***********************************************************************************************************************************/
+
+.formulaire{
+	text-align: center;
+}
+
+.formulaire fieldset{
+	width: 70%;
+	margin: auto;
+	background-color: rgba(152, 245, 255, 0.17);
+	border: 2px solid #98F5FF;
+}
+
+.formulaire input, .connexion_ville, .connexion_poste{
+	width: 500px;
+	height: 25px;
+}
+
+.formulaire input:hover, textarea:hover, .connexion_ville:hover, .connexion_poste:hover{
+	background-color: rgba(152, 245, 255, 0.17);
+	border: 2px solid #98F5FF;
+}
+
+.formulaire input:focus, textarea:focus, .connexion_ville:focus, .connexion_poste:focus{
+	background-color: rgba(152, 245, 255, 0.17);
+	border: 2px solid #98F5FF;
+	box-shadow: 0px 0px 3px 3px #BFBFBFFF;
+}
+
+input[type="submit"]{
+	width: 95px;
+	height: 30px;
+	background-color: #98F5FF;
+	border-radius: 10px;
+	border: 2px solid  #98F5FF;
+	box-shadow: 0px 0px 2px 2px #BFBFBFFF;
+	font-weight: bold;
+}
+
+input[type="submit"]:hover{
+	cursor: pointer;
+	border: 2px solid #98F5FF;
+	width: 100px;
+	box-shadow: 0px 0px 5px 3px #BFBFBFFF;
+	background-color: #98F5FF;
+}
+
+legend{
+	font-weight: bold;
+}
+
+/**********************************************************COMMANDES*********************************************************/
+
+.table_commandes, .table_commandes th, .table_commandes td, .table_commandes tr{
+	border: 2px solid rgba(191, 191, 191);
+	margin: auto;
+	text-align: center;
+}
+
+.table_commandes{
+	margin-top: 20px;
+	width: 70%;
+}
+
+.table_commandes thead{
+	height: 50px;
+}
+
+.table_commandes tr{
+	height: 40px;
+	background-color: #98F5FF;
+}
+
+.tbody_commandes a{
+	text-decoration: none;
+	color: black;
+}
+
+.tbody_commandes tr{
+	background-color: rgba(152, 245, 255, 0.3);
+}
+
+.tbody_commandes tr:hover{
+	background-color: rgba(191, 191, 191, 0.3);
+}
+
+.date_commandes, .nombre_commandes{
+	width: 50%;
+}
+
+/*************************************************************LISTE COMMANDES****************************************************/
+
+.table_liste_commandes, .table_liste_commandes th, .table_liste_commandes td, .table_liste_commandes tr{
+	border: 2px solid rgba(191, 191, 191);
+	margin: auto;
+	text-align: center;
+}
+
+.table_liste_commandes{
+	width: 80%;
+	margin-top: 20px;
+}
+
+.table_liste_commandes tr{
+	height: 40px;
+	background-color: #98F5FF;
+}
+
+.tbody_liste_commandes a{
+	text-decoration: none;
+	color: black;
+}
+
+.tbody_liste_commandes tr{
+	background-color: rgba(152, 245, 255, 0.3);
+}
+
+.tbody_liste_commandes tr:hover{
+	background-color: rgba(191, 191, 191, 0.3);
+}
+
+.tbody_liste_commandes td{
+	word-wrap: break-word;
+}
+
+.n_commande{
+	width: 20%;
+}
+
+.nm_prnm_acheteur{
+	width: 30%;
+}
+
+.prix_commandes{
+	width: 16%;
+}
+
+.nbre_livres{
+	width: 10%;
+}
+
+.heure_commande{
+	width: 10%;
+}
+
+
+/***************************************************COMMANDES_NUMBERS*************************************************/
+
+.info_client , .info_commande{
+	float: left;
+}
+
+.info_client, .info_client th, .info_client td, .info_client tr{
+	border: 2px solid rgba(191, 191, 191);
+	margin: auto;
+	text-align: center;
+}
+
+.info_client{
+	width: 20%;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.info_client tr{
+	height: 40px;
+}
+
+.info_client td{
+	background-color: rgba(152, 245, 255, 0.3);
+	word-wrap: break-word;
+}
+
+.info_client td:hover{
+	background-color: rgba(191, 191, 191, 0.3);
+}
+
+.info_commande, .info_commande th, .info_commande td, .info_commande tr{
+	border: 2px solid rgba(191, 191, 191);
+	margin: auto;
+	text-align: center;
+}
+
+.info_commande{
+	width: 77%;
+}
+
+.info_commande a{
+	text-decoration: none;
+	color: black;
+}
+
+.info_commande tr{
+	height: 40px;
+}
+
+.info_commande th{
+	background-color: #98F5FF;
+}
+
+.tbody_commandes_number tr{
+	background-color: rgba(152, 245, 255, 0.3);
+}
+
+.tbody_commandes_number tr:hover{
+	background-color: rgba(191, 191, 191, 0.3);
+}
+
+.tbody_commandes_number td{
+	word-wrap: break-word;
+}
+
+.titre_commandes_number{
+	width: 23%;
+}
+
+.auteur_commandes_number{
+	width: 20%;
+}
+
+.quantite_commandes_number{
+	width: 9%;
+}
+
+.prix_commandes_number{
+	width: 10%;
+}
+
+.prx_lvrson_commandes_number{
+	width: 10%;
+}
+
+.dt_lvrson_commandes_number{
+	width: 10%;
+}
+
+
+/****************************************************MEMBRES*******************************************************/
+
+.table_membres, .table_membres th, .table_membres td, .table_membres tr, .table_poste, .table_poste th, .table_poste td, .table_poste tr{
+	border: 2px solid rgba(191, 191, 191);
+	rgba(191, 191, 191)
+	margin: auto;
+	text-align: center;
+}
+
+.table_membres{
+	width: 2700px;
+	margin-left: 6px;
+}
+
+.table_poste{
+	width: 98%;
+}
+
+.table_membres th, .table_poste th{
+	background-color: #98F5FF;
+}
+
+.table_membres tr, .table_poste tr{
+	height: 40px;
+	background-color: rgba(152, 245, 255, 0.3);
+}
+
+.table_membres tr:hover, .table_poste tr:hover{
+	background-color: rgba(191, 191, 191, 0.3);
+}
+
+.table_membres a, .table_poste a{
+	text-decoration: none;
+	color: black;
+}
+
+.id_membres{
+	width: 3%;
+}
+
+.nom_membres{
+	width: 8%;
+}
+
+.prnom_membres{
+	width: 10%;
+}
+
+.sexe_membres{
+	width: 5%;
+}
+
+.dt_nsscnce_membres{
+	width: 6%;
+}
+
+.tel1_membres, .tel2_membres, .tel3_membres{
+	width: 5%;
+}
+
+.mail_membres{
+	width: 10%;
+}
+
+.ville_membres{
+	width: 7%;
+}
+
+.qrtr_membres{
+	width: 7%;
+}
+
+.lieu_rtrt_membres{
+	width: 10%;
+}
+
+.action_membres{
+	width: 5%;
+}
+
+.action_poste{
+	width: 10%;
+}
+
+.id_poste{
+	width: 5%;
+}
+
+.nom_poste{
+	width: 12%;
+}
+
+.prenom_poste{
+	width: 18%;
+}
+
+.mail_poste{
+	width: 22%;
+}
+
+.ville_poste{
+	width: 12%;
+}
+
+.poste_poste{
+	width: 12%;
+}
+
+.compte_poste{
+	width: 15%;
+}
+
+
+
+
+/******************************************************AUTEURS***************************************************************/
+
+.un_auteur{
+	cursor: pointer;
+	width: 18.5%;
+	height: 650px;
+	display: inline-block;
+	float: left;
+	margin-left: 1px;
+	margin-right: 11px;
+	margin-bottom: 20px;
+	border: 3px solid #98F5FF;
+	background-color: rgba(152, 245, 255, 0.17);
+}
+
+.un_auteur:hover{
+	box-shadow: 0px 0px 6px 6px #BFBFBFFF;
+}
+
+.img_auteur{
+	width: 100%;
+	height: 40%;
+	border-bottom: 3px solid #98F5FF;
+}
+
+.img_auteur img{
+	width: 100%;
+	height: 100%;
+}
+
+.info_auteur{
+	width: 100%;
+	height: 60%;
+	text-align: center;
+	word-wrap: break-word;
+	font-style: italic;
+}
+
+.info_auteur a{
+	text-decoration: none;
+	color: black;
+	font-style: normal;
+}
+
+
+
+/**********************************************EDITIONS****************************************************/
+
+.une_edition{
+	cursor: pointer;
+	width: 18.5%;
+	height: 800px;
+	display: inline-block;
+	float: left;
+	margin-left: 7px;
+	margin-right: 5px;
+	margin-bottom: 20px;
+	border: 3px solid #98F5FF;
+	background-color: rgba(152, 245, 255, 0.17);
+}
+
+.une_edition:hover{
+	box-shadow: 0px 0px 6px 6px #BFBFBFFF;
+}
+
+.img_edition{
+	width: 100%;
+	height: 20%;
+	border-bottom: 3px solid #98F5FF;
+}
+
+.img_edition img{
+	width: 100%;
+	height: 100%;
+}
+
+.info_edition{
+	width: 100%;
+	height: 60%;
+	text-align: center;
+	word-wrap: break-word;
+	font-style: italic;
+}
+
+.info_edition a{
+	text-decoration: none;
+	color: black;
+	font-style: normal;
+}
